@@ -17,7 +17,7 @@
 }
 @font-face {
   font-family: "Proxima Nova";
-  src: url("../fonts/proxima_nova/ProximaNova-RegularIt.eot");
+  src: url("./fonts/proxima_nova/ProximaNova-RegularIt.eot");
   src: local("Proxima Nova Regular Italic"), local("ProximaNova-RegularIt"),
     url("../fonts/proxima_nova/ProximaNova-RegularIt.eot?#iefix")
       format("embedded-opentype"),
