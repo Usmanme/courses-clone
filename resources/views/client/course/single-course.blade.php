@@ -41,7 +41,7 @@
                                 <!-- Entry Image
                                 ============================================= -->
                                 <div class="entry-image">
-                                    <a href="#"><img src="images/blog/full/1.jpg" alt="Blog Single"></a>
+                                    <a href="#"><img src="{{asset('app-assets')}}/client/images/blog/full/1.jpg" alt="Blog Single"></a>
                                 </div><!-- .entry-image end -->
 
                                 <!-- Entry Content
