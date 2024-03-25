@@ -17,6 +17,6 @@ Route::get('/', function () {
     return view('client/home/main');
 });
 
-Route::get("home",function(){
-    dd('dd');
+Route::get("single-course",function(){
+    return view("client.course.single-course");
 });
