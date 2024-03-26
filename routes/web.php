@@ -14,9 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('client/home/main');
+    return view('front-end/home/main');
 });
 
 Route::get("single-course",function(){
-    return view("client.course.single-course");
+    return view("front-end.course.single-course");
 });

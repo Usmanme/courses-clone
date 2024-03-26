@@ -18,16 +18,16 @@
 	<link rel="stylesheet" href="{{asset('app-assets')}}/client/css/magnific-popup.css" type="text/css" />
 	<link rel="stylesheet" href="{{asset('app-assets')}}/client/css/calendar.css" type="text/css" />
 	<link rel="stylesheet" href="{{asset('app-assets')}}/client/css/custom.css" type="text/css" />
-	
+
     @yield('page-css')
 </head>
 <body class="stretched">
 
-    {{view('client.layout.header')}}
+    {{view('front-end.layout.header')}}
 
     @yield('content')
 
-    {{view('client.layout.footer')}}
+    {{view('front-end.layout.footer')}}
 
     <script src="{{asset('app-assets')}}/client/js/jquery.js"></script>
 	<script src="{{asset('app-assets')}}/client/js/plugins.min.js"></script>

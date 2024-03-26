@@ -1,4 +1,4 @@
-@extends('client.layout.app')
+@extends('front-end.layout.app')
 @section('title','Home')
 @section('description','Home Descripiton.')
 @section('keywords','Home Keywords')
