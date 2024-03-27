@@ -18,7 +18,15 @@
 	<link rel="stylesheet" href="{{asset('app-assets')}}/client/css/magnific-popup.css" type="text/css" />
 	<link rel="stylesheet" href="{{asset('app-assets')}}/client/css/calendar.css" type="text/css" />
 	<link rel="stylesheet" href="{{asset('app-assets')}}/client/css/custom.css" type="text/css" />
-	
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .fa-solid {
+            color: #fff;
+        }
+        #footer.dark {
+            margin-top: 0px !important;
+        }
+    </style>
     @yield('page-css')
 </head>
 <body class="stretched">
