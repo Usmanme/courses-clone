@@ -14,7 +14,7 @@ require __DIR__ . DIRECTORY_SEPARATOR . 'auth.php';
 
 Route::group([
 ], function () {
-    Route::get('/login', function () {
+    Route::get('/', function () {
         return redirect()->route('login.view');
     });
 
@@ -23,7 +23,7 @@ Route::group([
 });
 
 
-Route::get('/', function () {
+Route::get('/homepage', function () {
     return view('front-end/home/main');
 });
 Route::get('/single-course', function () {
